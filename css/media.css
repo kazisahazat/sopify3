@@ -1,0 +1,1004 @@
+/*====================== Extra small devices 
+================================================================*/
+@media (max-width: 479.98px) {
+/*========== Top_hadding part start ==========*/
+#top_hadding {
+	top: 41px;
+	padding-top: 11px;
+	padding-bottom: 26px;
+}
+.logo a img {
+	padding-top: 0;
+}
+.logo {
+	width: 24%;
+}
+.search_box {
+	width: 100%;
+	height: 49px;
+	display: flex;
+	padding: 5px;
+}
+.search_box .dropdown {
+	width: 116px;
+}    
+.menu {
+	position: relative;
+	top: 16px;
+	 display: inline block; 
+}   
+.search_box .search_field .input {
+	width: 78%;
+	height: 100%;
+	border: 0px;
+	font-size: 14px;
+	padding-left: 0;
+	padding-right: 0;
+	position: relative;
+	left: -13px;
+}    
+.search_box .search_field .fa {
+	top: 9px;
+	right: 11px;
+	font-size: 20px;    
+	color: #969696;
+	cursor: pointer;
+}    
+    .flaticon-profile-user {
+        line-height: 30px;
+        font-size: 30px;
+        color: #ff9900;
+        padding-right: 15px;
+    }
+    #wish_h {
+        display: none;
+    }
+    #cart_h {
+        display: none;
+    }
+    #user_h {
+        display: none;
+    }   
+    #dex_logo {
+        display: none;
+    }
+    .menu {
+	width: 100%;
+	text-align: center;
+	height: 50px;
+}
+.menu ul li {
+	display: inline-block;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+    
+    
+    
+
+/*========== Navbar part start ==========*/
+.navbar {
+    border-bottom: 1px solid #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar {
+	position: fixed;
+	top: 0;
+	transition: all linear .4s;
+	z-index: 9999;
+	padding-top: 18px;
+	padding-bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+}
+.navbar-light .navbar-toggler {
+	color: #000;
+    border: 0;
+}
+
+.navbar-light .navbar-nav .nav-link::after {
+	display: none;
+}
+.fa.fa-bars {
+	color: #000;
+    font-size: 26px;
+}
+.navbar-nav .nav-item {
+	background: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    text-align: center;
+}
+.navbar-light .navbar-nav .nav-link {
+	font-size: 16px;
+	font-weight: 600;
+	color: #000;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	transition: all linear .3s;
+	padding: 10px 20px;
+	border-left: none;
+	border-bottom: 2px solid #ddd;
+}
+    #bt-3{
+        border-top: 3px solid #000;
+    }   
+    .navbarSupportedContent {
+        padding-top: 30px;
+    }
+    .pt-3 {
+        padding-top: 20px;
+    }
+    
+    
+    
+
+/*=========== Banner part start ===========*/
+
+#banner {
+	top: 131px;
+}
+    .banner-item {
+        text-align: center;
+    }
+    .t-right {
+        text-align: center;
+    }
+.banner-item h1 {
+	font-size: 17px;
+	font-weight: 800;
+	color: #000;
+	text-transform: capitalize;
+}
+    .banner-item h6 {
+	font-size: 12px;
+}
+    .banner-item p {
+	font-size: 14px;
+	padding-top: 10px;
+	margin-bottom: 15px;
+}
+.banner_slider1 {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+    .banner_slider2 {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.slick-dots li {
+	width: 21px;
+}
+.slick-dots li.slick-active button {
+	width: 16px;
+}
+.slick-dots {
+	bottom: -23px;
+}
+/*=========== menu2 part start ===========*/
+.menu2 {
+	margin-top: 30px;
+	margin-right: 16px;
+}
+
+/*=========== shop part start ===========*/
+#shop {
+	padding-top: 83px;
+}
+.about-btn {
+	margin-bottom: 0;
+}
+    .shop-hadding h3 {
+	font-size: 20px;
+        color: #000;
+}
+    .shop-item {
+	height: 286px;
+}
+/*=========== portfolio part start ===========*/
+#portfolio {
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+.portfolio-hadding::after {
+	width: 80px;
+	top: 46px;
+	left: 58px;
+}
+.portfolio-hadding::before {
+	width: 80px;
+	top: 46px;
+	right: 58px;
+}
+
+
+/*=========== Contact part start ===========*/
+#contact {
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+.contact-hadding::before {
+	width: 65px;
+	top: 46px;
+	right: 70px;
+}
+.contact-hadding::after {
+	width: 65px;
+	top: 46px;
+	left: 70px;
+}
+.contact-first {
+	padding-bottom: 40px;
+}
+.form input[type="text"] {
+	width: 90%;
+}
+.form input[type="email"] {
+	margin-left: 0;
+	width: 90%;
+}
+#mb-30 {
+    margin-bottom: 30px;
+}
+#soci-space {
+	padding-top: 40px;
+	padding-bottom: 0;
+}    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+/*=========================== Extra small 2 devices 
+=======================================================================*/
+@media (min-width: 480px) and (max-width: 575.98px) {
+
+/*========== Top_hadding part start ==========*/
+#top_hadding {
+	top: 41px;
+	padding-top: 11px;
+	padding-bottom: 26px;
+}
+.logo a img {
+	padding-top: 0;
+}
+.logo {
+	width: 24%;
+}
+.search_box {
+	width: 100%;
+	height: 49px;
+	display: flex;
+	padding: 5px;
+}
+.search_box .dropdown {
+	width: 116px;
+}    
+.menu {
+	position: relative;
+	top: 16px;
+	 display: inline block; 
+}   
+.search_box .search_field .input {
+	width: 78%;
+	height: 100%;
+	border: 0px;
+	font-size: 14px;
+	padding-left: 0;
+	padding-right: 0;
+	position: relative;
+	left: -13px;
+}    
+.search_box .search_field .fa {
+	top: 9px;
+	right: 11px;
+	font-size: 20px;    
+	color: #969696;
+	cursor: pointer;
+}    
+    .flaticon-profile-user {
+        line-height: 30px;
+        font-size: 30px;
+        color: #ff9900;
+        padding-right: 15px;
+    }
+    #wish_h {
+        display: none;
+    }
+    #cart_h {
+        display: none;
+    }
+    #user_h {
+        display: none;
+    }   
+    #dex_logo {
+        display: none;
+    }
+    .menu {
+	width: 100%;
+	text-align: center;
+	height: 50px;
+}
+.menu ul li {
+	display: inline-block;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+    
+    
+    
+
+/*========== Navbar part start ==========*/
+.navbar {
+    border-bottom: 1px solid #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar {
+	position: fixed;
+	top: 0;
+	transition: all linear .4s;
+	z-index: 9999;
+	padding-top: 18px;
+	padding-bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+}
+.navbar-light .navbar-toggler {
+	color: #000;
+    border: 0;
+}
+
+.navbar-light .navbar-nav .nav-link::after {
+	display: none;
+}
+.fa.fa-bars {
+	color: #000;
+    font-size: 26px;
+}
+.navbar-nav .nav-item {
+	background: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    text-align: center;
+}
+.navbar-light .navbar-nav .nav-link {
+	font-size: 16px;
+	font-weight: 600;
+	color: #000;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	transition: all linear .3s;
+	padding: 10px 20px;
+	border-left: none;
+	border-bottom: 2px solid #ddd;
+}
+    #bt-3{
+        border-top: 3px solid #000;
+    }   
+    .navbarSupportedContent {
+        padding-top: 30px;
+    }
+    .pt-3 {
+        padding-top: 20px;
+    }
+    
+    
+    
+
+/*=========== Banner part start ===========*/
+
+#banner {
+	top: 131px;
+}
+    .banner-item {
+        text-align: center;
+    }
+    .t-right {
+        text-align: center;
+    }
+.banner-item h1 {
+	font-size: 17px;
+	font-weight: 800;
+	color: #000;
+	text-transform: capitalize;
+}
+    .banner-item h6 {
+	font-size: 12px;
+}
+    .banner-item p {
+	font-size: 14px;
+	padding-top: 10px;
+	margin-bottom: 15px;
+}
+.banner_slider1 {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+    .banner_slider2 {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.slick-dots li {
+	width: 21px;
+}
+.slick-dots li.slick-active button {
+	width: 16px;
+}
+.slick-dots {
+	bottom: -23px;
+}
+/*=========== menu2 part start ===========*/
+.menu2 {
+	margin-top: 30px;
+	margin-right: 16px;
+}
+
+/*=========== shop part start ===========*/
+#shop {
+	padding-top: 83px;
+}
+.about-btn {
+	margin-bottom: 0;
+}
+    .shop-hadding h3 {
+	font-size: 20px;
+        color: #000;
+}
+    .shop-item {
+	height: 286px;
+}
+/*=========== portfolio part start ===========*/
+#portfolio {
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+.portfolio-hadding::after {
+	width: 80px;
+	top: 46px;
+	left: 58px;
+}
+.portfolio-hadding::before {
+	width: 80px;
+	top: 46px;
+	right: 58px;
+}
+
+
+/*=========== Contact part start ===========*/
+#contact {
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+.contact-hadding::before {
+	width: 65px;
+	top: 46px;
+	right: 70px;
+}
+.contact-hadding::after {
+	width: 65px;
+	top: 46px;
+	left: 70px;
+}
+.contact-first {
+	padding-bottom: 40px;
+}
+.form input[type="text"] {
+	width: 90%;
+}
+.form input[type="email"] {
+	margin-left: 0;
+	width: 90%;
+}
+#mb-30 {
+    margin-bottom: 30px;
+}
+#soci-space {
+	padding-top: 40px;
+	padding-bottom: 0;
+}    
+  
+    
+    
+    
+}
+
+
+
+
+/*=========================== Small devices 
+=======================================================================*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*========== Top_hadding part start ==========*/
+#top_hadding {
+	top: 41px;
+	padding-top: 11px;
+	padding-bottom: 26px;
+}
+.logo a img {
+	padding-top: 0;
+}
+.logo {
+	width: 24%;
+}
+.search_box {
+	width: 100%;
+	height: 49px;
+	display: flex;
+	padding: 5px;
+}
+.search_box .dropdown {
+	width: 116px;
+}    
+.menu {
+	position: relative;
+	top: 16px;
+	 display: inline block; 
+}   
+.search_box .search_field .input {
+	width: 78%;
+	height: 100%;
+	border: 0px;
+	font-size: 14px;
+	padding-left: 0;
+	padding-right: 0;
+	position: relative;
+	left: -13px;
+}    
+.search_box .search_field .fa {
+	top: 9px;
+	right: 11px;
+	font-size: 20px;    
+	color: #969696;
+	cursor: pointer;
+}    
+    .flaticon-profile-user {
+        line-height: 30px;
+        font-size: 30px;
+        color: #ff9900;
+        padding-right: 15px;
+    }
+    #wish_h {
+        display: none;
+    }
+    #cart_h {
+        display: none;
+    }
+    #user_h {
+        display: none;
+    }   
+    #dex_logo {
+        display: none;
+    }
+    .menu {
+	width: 100%;
+	text-align: center;
+	height: 50px;
+}
+.menu ul li {
+	display: inline-block;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+    
+    
+    
+
+/*========== Navbar part start ==========*/
+.navbar {
+    border-bottom: 1px solid #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar {
+	position: fixed;
+	top: 0;
+	transition: all linear .4s;
+	z-index: 9999;
+	padding-top: 18px;
+	padding-bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+}
+.navbar-light .navbar-toggler {
+	color: #000;
+    border: 0;
+}
+
+.navbar-light .navbar-nav .nav-link::after {
+	display: none;
+}
+.fa.fa-bars {
+	color: #000;
+    font-size: 26px;
+}
+.navbar-nav .nav-item {
+	background: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    text-align: center;
+}
+.navbar-light .navbar-nav .nav-link {
+	font-size: 16px;
+	font-weight: 600;
+	color: #000;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	transition: all linear .3s;
+	padding: 10px 20px;
+	border-left: none;
+	border-bottom: 2px solid #ddd;
+}
+    #bt-3{
+        border-top: 3px solid #000;
+    }   
+    .navbarSupportedContent {
+        padding-top: 30px;
+    }
+    .pt-3 {
+        padding-top: 20px;
+    }
+    
+    
+    
+
+/*=========== Banner part start ===========*/
+
+#banner {
+	top: 131px;
+}
+    .banner-item {
+        text-align: center;
+    }
+    .t-right {
+        text-align: center;
+    }
+.banner-item h1 {
+	font-size: 17px;
+	font-weight: 800;
+	color: #000;
+	text-transform: capitalize;
+}
+    .banner-item h6 {
+	font-size: 12px;
+}
+    .banner-item p {
+	font-size: 14px;
+	padding-top: 10px;
+	margin-bottom: 15px;
+}
+.banner_slider1 {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+    .banner_slider2 {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.slick-dots li {
+	width: 21px;
+}
+.slick-dots li.slick-active button {
+	width: 16px;
+}
+.slick-dots {
+	bottom: -23px;
+}
+/*=========== menu2 part start ===========*/
+.menu2 {
+	margin-top: 30px;
+	margin-right: 16px;
+}
+
+/*=========== shop part start ===========*/
+#shop {
+	padding-top: 83px;
+}
+.about-btn {
+	margin-bottom: 0;
+}
+    .shop-hadding h3 {
+	font-size: 20px;
+        color: #000;
+}
+    .shop-item {
+	height: 286px;
+}
+/*=========== portfolio part start ===========*/
+#portfolio {
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+.portfolio-hadding::after {
+	width: 80px;
+	top: 46px;
+	left: 58px;
+}
+.portfolio-hadding::before {
+	width: 80px;
+	top: 46px;
+	right: 58px;
+}
+
+
+/*=========== Contact part start ===========*/
+#contact {
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+.contact-hadding::before {
+	width: 65px;
+	top: 46px;
+	right: 70px;
+}
+.contact-hadding::after {
+	width: 65px;
+	top: 46px;
+	left: 70px;
+}
+.contact-first {
+	padding-bottom: 40px;
+}
+.form input[type="text"] {
+	width: 90%;
+}
+.form input[type="email"] {
+	margin-left: 0;
+	width: 90%;
+}
+#mb-30 {
+    margin-bottom: 30px;
+}
+#soci-space {
+	padding-top: 40px;
+	padding-bottom: 0;
+}    
+
+/*============================ Medium devices 
+=========================================================================*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*========== Navbar part start ==========*/
+.navbar-light .navbar-toggler {
+	color: #000;
+    border: 0;
+}
+.navbar-toggler {
+	background-color: transparent;
+    font-size: 24px;
+} 
+.navbar-light .navbar-nav .nav-link {
+	margin-right: 0;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+	margin-right: 40px;
+}
+.navbar-light .navbar-nav .nav-link i {
+	font-size: 16px;
+    padding-left: 0; 
+	display: block;
+	text-align: center;
+}
+/*=========== banner part start ===========*/
+#banner {
+	padding-top: 220px;
+	padding-bottom: 220px;
+}
+.banner-item p { 
+	padding-right: 250px;
+}
+    
+
+/*=========== about part start ===========*/
+#about {
+	padding-top: 30px;
+}
+.about-hadding::before {
+	right: 216px;
+}
+.about-hadding::after {
+	left: 216px;
+}
+.about-btn {
+	margin-top: 1px;
+	margin-bottom: 40px;
+}    
+.about-btn a {
+    margin-bottom: 0;
+}
+.about-main-img::after {
+    top: 18px;
+	right: -18px;
+}
+.about-main h3 {
+	padding-top: 0;
+	padding-bottom: 20px;
+}
+.education {
+	padding-top: 10px;
+}
+.mr-15 {
+    margin-right: 15px;
+}
+.ml-15 {
+    margin-left: 15px;
+}
+#skill {
+	padding-bottom: 0;
+}
+.about-btn a {
+	position: relative;
+	right: 100px;
+	margin-top: 30px;
+}
+/*=========== service part start ===========*/
+#service {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.service-hadding::before {
+	right: 116px;
+}
+.service-hadding::after {
+	left: 116px;
+}
+.mt-200 {
+	margin-top: 0;
+}
+.mt-200 .service-item {
+	padding: 30px 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/*=========== portfolio part start ===========*/
+#portfolio {
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+.portfolio-hadding::before {
+	right: 163px;
+}
+.portfolio-hadding::after {
+	left: 163px;
+}
+/*=========== blog part start ===========*/
+#blog {
+	padding-top: 30px;
+	padding-bottom: 0;
+}
+.blog-hadding::before {
+	right: 220px;
+}   
+.blog-hadding::after {
+	left: 220px;
+}   
+#contact {
+	padding-top: 30px;
+}
+.contact-hadding::before {
+	right: 180px;
+} 
+.contact-hadding::after {
+	left: 180px;
+}    
+    
+    
+}
+/*============================ Large devices 
+=========================================================================*/
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*=========== about part start ===========*/
+.about-hadding::before {
+	right: 17px;
+}
+.about-hadding::after {
+	left: 17px;
+}
+.about-main h3 {
+	padding-bottom: 20px;
+}
+.about-btn {
+	margin-top: 0;
+}
+#skill {
+	padding-bottom: 0;
+}
+.education {
+	padding-top: 50px;
+}
+/*=========== service part start ===========*/
+#service {
+	padding-bottom: 13px;
+}
+.service-hadding h3 {
+	font-size: 48px;
+}    
+.service-hadding::after {
+	width: 198px;
+	left: 3px;
+}
+.service-hadding::before {
+	width: 198px;
+	right: 3px;
+}    
+/*=========== portfolio part start ===========*/
+#portfolio {
+	padding-top: 20px;
+	padding-bottom: 4px;
+}
+.portfolio-hadding h3 {
+	font-size: 49px;
+}    
+.portfolio-hadding::after {
+	width: 158px;
+	left: 6px;
+}
+.portfolio-hadding::before {
+	width: 158px;
+	right: 6px;
+}
+/*=========== blog part start ===========*/
+#blog {
+	padding-bottom: 20px;
+}
+.blog-hadding::before {
+	height: 2px;
+	right: 20px;
+}
+.blog-hadding::after {
+	height: 2px;
+	left: 20px;
+}    
+.post-slide .post-title a {
+	font-size: 16px;
+}    
+    
+    
+/*=========== Contact part start ===========*/    
+.contact-hadding h3 {
+	font-size: 43px;
+}    
+.contact-hadding::before {
+	width: 119px;
+	top: 62px;
+	right: 2px;
+}
+.contact-hadding::after {
+	width: 119px;
+	top: 62px;
+	left: 2px;
+}
+.form input[type="email"] {
+	margin-left: 20px;
+}
+    
+
+}
+
+/*============================ Extra Large devices 
+=========================================================================*/
+@media (min-width: 1200px) {
+.lg-logo {
+    display: none;
+}
+    
+}
+
+

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Karon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="font/flaticon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body  class="skin-light" data-spy="scroll" data-target=".navbar" data-offset="100" id="signin">
+
+
+<!--===============================================================
+=====================  Top_hadding part start  ====================
+================================================================-->
+<section id="top_hadding">
+    <div class="container">
+        <div class="row">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo/logo1.png" alt="">
+                </a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li class="search-box">
+                        <div class="search_box">
+                            <div class="dropdown">
+                                <div class="default_option">All categories</div>
+                                <ul>
+                                    <li>All categories</li>
+                                    <li>women's categories</li>
+                                    <li>mens categories</li>
+                                </ul>
+                            </div>
+                            <div class="search_field">
+                                <input type="text" class="input" placeholder="Search..">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><i class="flaticon-love" style="font-size: 25px;" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="cart.html"><i class="flaticon-shopping-cart" style="font-size: 25px;" aria-hidden="true"></i><span class="cart-items" style="position: relative; bottom: 13px; left: 3px;">4</span></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="flaticon-profile-user"  style="font-size: 25px;" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="clr"></div>
+        </div>
+    </div>
+</section>
+<!--===============================================================
+======================  Top_hadding part End  =====================
+================================================================-->
+
+<!--===============================================================
+=======================  Navbar part start  =======================
+================================================================-->    
+<nav class="navbar navbar-expand-md navbar-light">
+    <div class="container">
+        <button class="navbar-toggler nav_ba" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#shop">shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Men">Men's Fashion </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Women"> Women's Fashion </a>
+                </li>
+                <li class="nav-item last_c">
+                    <a class="nav-link" href="#discount">Discount Products </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--===============================================================
+========================  Navbar part End  ========================
+================================================================-->    
+
+
+<!--===============================================================
+==========================  Form part Start  ======================
+================================================================-->
+
+
+<section id="signin_form" class="tt-login-form">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-6 m-auto">
+                <div class="tt-item">
+
+                    <div id="login">
+                        <h2 class="tt-title">SIGN IN</h2>
+                        <h5>If you have an account with us, please log in.</h5>
+
+                        <div class="form-default form-top">
+                            <form method="post" action="" id="customer_login" accept-charset="UTF-8"><input type="hidden" name="form_type" value="customer_login" /><input type="hidden" name="utf8" value="✓" />
+                            <div class="form-group">
+                                    <label for="loginInputName">E-MAIL <sup>*</sup></label>
+                                    <div class="tt-required">* Required Fields</div>
+                                    <input type="email" name="customer[email]" class="form-control" id="loginInputName" placeholder="Enter E-mail">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="loginInputEmail">PASSWORD <sup>*</sup></label>
+                                    <input type="password" value="" name="customer[password]" class="form-control" id="loginInputEmail" placeholder="Enter Password">
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <button class="btn btn-border" type="submit">SIGN IN</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
+                                
+                                <div class="row">
+                                    <div class="col-12 col-xs-6 ">
+                                        <div class="remember_me text-center">
+                                            <input type="checkbox">Remember Me
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-xs-6 ">
+                                        <div class="form-group text-center">
+                                            <ul class="additional-links text-right">
+                                                <li><a href="#" onclick="showRecoverPasswordForm();return false;">Lost your password?</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div id="recover-password" style="display:none;" class="wrap">
+                        <h2 class="tt-title">RESET PASSWORD</h2>
+                        We will send you an email to reset your password.
+
+                        <div class="form-default form-top">
+                            <form method="post" action="" accept-charset="UTF-8"><input type="hidden" name="form_type" value="recover_customer_password" /><input type="hidden" name="utf8" value="✓" />
+                                <div class="form-group">
+                                    <label for="loginInputName">E-MAIL <sup>*</sup></label>
+                                    <div class="tt-required">* Required Fields</div>
+                                    <input value="" name="email" class="form-control" id="loginInputName" placeholder="Enter E-mail" autocorrect="off" autocapitalize="off">
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-auto">
+                                        <div class="form-group">
+                                            <button class="btn btn-border" type="submit">SUBMIT</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto align-self-center">
+                                        <div class="form-group">
+                                            <ul class="additional-links">
+                                                <li>&nbsp;or <a href="#" onclick="hideRecoverPasswordForm();return false;">Cancel</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <div class="new_account text-center">
+                        <h5>Not a member yet? <a href="signup.html"> Sign up</a></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--===============================================================
+========================  Form part End  ==========================
+================================================================-->
+    
+    
+    
+<!--===============================================================
+=======================  Footer part Start  =======================
+================================================================-->    
+<section id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="footer_item">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="#">home</a><br></li>
+                        <li><a href="#">shop</a><br></li>
+                        <li><a href="#">mens fashion</a><br></li>
+                        <li><a href="#">women's fashion</a><br></li>
+                        <li><a href="#">discount products</a><br></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="footer_item pl_1">
+                    <h4>Contact Us</h4>
+                    <p>House #5 (1st Floor), Road # 11,<br>
+                        Dhanmondi, Dhaka-1209</p>
+                    <p>Email: support@gmail.com</p>
+                    <p>Contact no: 09000000000</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="footer_item pl_2">
+                    <h4>Get in Touch</h4>
+                    <div class="footer_social">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--===============================================================
+========================  Footer part End  ========================
+================================================================-->
+
+
+
+
+<!--===============================================================
+========================  Copyright part Start  ===================
+================================================================-->
+
+<section id="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 m-auto">
+                <div class="social-contacts text-center">
+                    <p>Copyright &copy; 2020. All Rights Are Reserved</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--===============================================================
+========================  Copyrighy part End  =====================
+================================================================-->
+
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
+
+</body>
+</html>
